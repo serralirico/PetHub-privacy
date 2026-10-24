@@ -27,7 +27,7 @@
 <body>
 <div class="caja">
 <h1>Política de privacidad</h1>
-<p class="fecha">Última actualización: septiembre de 2026</p>
+<p class="fecha">Última actualización: octubre de 2026</p>
 <p class="fecha">Aplicación: <strong>PetHub</strong> · Paquete: <code>com.serrano.pethub</code></p>
 <h2>1. ¿Quiénes somos?</h2>
 <p>PetHub es una aplicación móvil desarrollada por Serranen (serralirico@gmail.com) para ayudarte a gestionar la salud, las citas, los gastos y los documentos de tus mascotas, con la ayuda de Mochi, un asistente de inteligencia artificial. Serranen es el responsable del tratamiento de tus datos.</p>
@@ -37,13 +37,13 @@
   <li>Datos de tus mascotas (nombre, especie, raza, peso, foto, fecha de nacimiento), sus vacunas, citas veterinarias, gastos y documentos. Todo esto se guarda en tu dispositivo.</li>
   <li>Tu cuenta de Google: al iniciar sesión creamos una cuenta en Firebase Authentication con tu correo electrónico, tu nombre y un identificador de usuario. Es obligatorio para usar la app.</li>
   <li>Tus mensajes y fotos a Mochi, que se envían a Google para generar la respuesta. La conversación se guarda en tu dispositivo, no en nuestros servidores.</li>
-  <li>PetHub no tiene funciones sociales: no publicamos nada tuyo, ni tu correo ni tus datos son visibles para otras personas que usen la aplicación.</li>
+  <li>Comunidad (solo si la usas): los anuncios que publicas (adopciones, mascotas perdidas, paseos, cuidadores y refugios) con tu nombre de pila, y tus mensajes del chat con otros usuarios. Tus anuncios los puede ver cualquier usuario de PetHub; los mensajes, solo tú y la persona con la que hablas. Nunca se muestran tu correo ni tus apellidos. También guardamos a quién has bloqueado, las denuncias que envías y un identificador del móvil para avisarte de mensajes nuevos.</li>
 </ul>
 <p>También guardamos tus preferencias de la app (modo oscuro, avisos, música) en tu dispositivo, y si usas la ubicación, ésta se emplea únicamente en tu móvil para abrir Google Maps: no se envía a ningún servidor nuestro.</p>
 <h2>3. ¿Dónde van tus datos?</h2>
 <p>PetHub utiliza los siguientes servicios de Google:</p>
 <ul>
-  <li>Firebase Authentication (tu identidad) y Cloud Run (el servidor que hace de intermediario con la IA). Estos servicios almacenan datos de forma permanente hasta que los borras.</li>
+  <li>Firebase Authentication (tu identidad), Cloud Firestore (los anuncios y mensajes de la Comunidad), Firebase Cloud Messaging (los avisos de mensajes nuevos) y Cloud Run (el servidor que hace de intermediario con la IA). Estos servicios almacenan datos de forma permanente hasta que los borras.</li>
   <li>Google Gemini: el texto o la imagen que envías a Mochi viaja a los servidores de Google para generar la respuesta, junto con un identificador que acredita que has iniciado sesión. Google Drive: si activas la copia de seguridad, se sube un archivo con tus mascotas, vacunas, citas, gastos y documentos a la carpeta privada de la aplicación DENTRO DE TU PROPIA CUENTA de Drive; nosotros no tenemos acceso a ella.</li>
 </ul>
 <p>No vendemos, alquilamos ni cedemos tus datos a ningún tercero con fines publicitarios o comerciales. PetHub no lleva publicidad ni herramientas de analítica.</p>
@@ -52,14 +52,16 @@
 <h2>5. ¿Cómo protegemos tus datos?</h2>
 <p>Los datos de tus mascotas se guardan en la base de datos privada de la app en tu dispositivo, a la que ninguna otra aplicación puede acceder. Todas las comunicaciones con nuestro servidor y con Google se realizan mediante HTTPS. El acceso a la app requiere iniciar sesión con Google.</p>
 <h2>6. ¿Cuánto tiempo conservamos tus datos?</h2>
-<p>Los datos de tu dispositivo permanecen hasta que los eliminas, desinstalas la app o eliminas tu cuenta. Tu cuenta se conserva hasta que la eliminas. La copia de seguridad de Drive permanece en tu cuenta de Google hasta que la sustituyes por otra o la borras tú.</p>
+<p>Los datos de tu dispositivo permanecen hasta que los eliminas, desinstalas la app o eliminas tu cuenta. Tu cuenta se conserva hasta que la eliminas. Tus anuncios de la Comunidad siguen publicados hasta que los borras o eliminas tu cuenta, y los mensajes del chat, hasta que tú o la otra persona elimináis la cuenta. Las denuncias se conservan el tiempo necesario para revisarlas. La copia de seguridad de Drive permanece en tu cuenta de Google hasta que la sustituyes por otra o la borras tú.</p>
 <h2>7. Menores de edad</h2>
 <p>PetHub no está dirigida a menores de 14 años y no debe ser utilizada por ellos.</p>
 <h2>8. Tus derechos y cómo borrar tu cuenta</h2>
-<p>Puedes ejercer los derechos de acceso, rectificación, supresión, limitación, oposición y portabilidad escribiendo a serralirico@gmail.com. Para eliminar tu cuenta y todos tus datos, entra en Ajustes → Tu cuenta → &#x27;Eliminar mi cuenta y mis datos&#x27;: se borrará tu cuenta y todo lo guardado en el dispositivo. También puedes solicitarlo por correo. Si resides en la Unión Europea, tienes además derecho a reclamar ante la autoridad de protección de datos de tu país (en España, la AEPD).</p>
+<p>Puedes ejercer los derechos de acceso, rectificación, supresión, limitación, oposición y portabilidad escribiendo a serralirico@gmail.com. Para eliminar tu cuenta y todos tus datos, entra en Ajustes → Tu cuenta → 'Eliminar mi cuenta y mis datos': se borrará tu cuenta, todo lo guardado en el dispositivo y lo que hayas publicado en la Comunidad (anuncios y conversaciones). También puedes solicitarlo por correo. Si resides en la Unión Europea, tienes además derecho a reclamar ante la autoridad de protección de datos de tu país (en España, la AEPD).</p>
 <h2>9. Cambios en esta política</h2>
 <p>Podemos actualizar esta política ocasionalmente. La fecha de la última actualización aparece siempre al inicio de este documento; te recomendamos revisarla de vez en cuando.</p>
-<h2>10. Contacto</h2>
+<h2>10. Publicidad</h2>
+<p>La versión gratuita de PetHub muestra anuncios de Google AdMob. Para ello, AdMob puede usar el identificador de publicidad de tu dispositivo y datos técnicos del mismo con el fin de mostrar y medir los anuncios. Limitamos el contenido publicitario a la categoría apta para todos los públicos. Si resides en el Espacio Económico Europeo, el Reino Unido o Suiza, te pedimos tu consentimiento antes de mostrar anuncios personalizados y puedes cambiar tu elección cuando quieras. Puedes restablecer o eliminar tu identificador de publicidad desde los ajustes de Android. Si te suscribes a PetHub Premium, la aplicación deja de mostrar anuncios.</p>
+<h2>11. Contacto</h2>
 <p>Si tienes cualquier duda sobre esta política de privacidad, escríbenos a:<br>serralirico@gmail.com</p>
 <footer>
   PetHub — desarrollada por Serranen.<br>
